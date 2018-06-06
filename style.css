@@ -1,4 +1,8 @@
-body { color: #929292; background-color: black; }
+body { 
+	color: #929292; 
+	background-color: black; 
+}
+div.picture img { width:100%; }
 h2 { color: blue; }
 .nerd { color: blue; }
 .FIRST { color: white; }
