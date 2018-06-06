@@ -3,7 +3,7 @@ body {
 	background-color: black; 
 }
 div.picture img { 
-	width:25%;
+	width:100px;
 	height:auto; }
 h2 { color: blue; }
 .nerd { color: blue; }
