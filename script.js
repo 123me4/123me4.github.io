@@ -7,22 +7,22 @@
     event_move = hasTouch() ? 'touchmove' : 'mousemove',
     event_end = hasTouch() ? 'touchend' : 'mouseup';
   console.log(event_start + "|" + event_move + "|" + event_end);
-  (function() {
-    function zoom(zoomincrement) {
-      img_ele = document.getElementById('drag-img');
-      var pre_width = img_ele.getBoundingClientRect().width,
-        pre_height = img_ele.getBoundingClientRect().height;
-      img_ele.style.width = (pre_width * zoomincrement) + 'px';
-      img_ele.style.height = (pre_height * zoomincrement) + 'px';
-      img_ele = null;
-    }
-    document.getElementById('zoomout').addEventListener('click', function() {
-      zoom(0.5);
-    });
-    document.getElementById('zoomin').addEventListener('click', function() {
-      zoom(1.5);
-    });
-  }());
+  //(function() {
+//    function zoom(zoomincrement) {
+//      img_ele = document.getElementById('drag-img');
+//      var pre_width = img_ele.getBoundingClientRect().width,
+//        pre_height = img_ele.getBoundingClientRect().height;
+//      img_ele.style.width = (pre_width * zoomincrement) + 'px';
+//      img_ele.style.height = (pre_height * zoomincrement) + 'px';
+//      img_ele = null;
+//    }
+//    document.getElementById('zoomout').addEventListener('click', function() {
+//      zoom(0.5);
+//    });
+//    document.getElementById('zoomin').addEventListener('click', function() {
+//      zoom(1.5);
+//    });
+//  }());
   (function() {
     function start_drag(event) {
       var x_cursor = hasTouch() ? event.changedTouches[0].clientX : event.clientX,
