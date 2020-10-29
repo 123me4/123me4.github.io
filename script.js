@@ -48,7 +48,7 @@
       }
     }
     document.getElementById('drag-img').addEventListener(event_start, start_drag);
-    document.getElementById('container').addEventListener(event_move, while_drag);
-    document.getElementById('container').addEventListener(event_end, stop_drag);
+    document.getElementById('containerThing').addEventListener(event_move, while_drag);
+    document.getElementById('containerThing').addEventListener(event_end, stop_drag);
   }());
 }());

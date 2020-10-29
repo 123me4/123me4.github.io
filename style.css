@@ -6,11 +6,9 @@ body {
 #drag-img {
   cursor: move;
   position: relative;
-  width: 500px;
-  height: 500px;
 }
 
-#container {
+#containerThing {
   overflow: hidden;
   background: red;
   height: 500px;
