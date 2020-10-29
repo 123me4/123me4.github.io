@@ -52,6 +52,8 @@ if(di) {
 	di.addEventListener('mousedown', start_drag);
 	
 	console.log("image event added");
+} else {
+	console.log("image null");
 }
 
 var con = document.getElementById('container')
@@ -60,4 +62,6 @@ if(con) {
 	con.addEventListener('mouseup', stop_drag);
 	
 	console.log("container events added");
+} else {
+	console.log("container null");
 }
