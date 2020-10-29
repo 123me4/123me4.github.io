@@ -4,6 +4,7 @@ var img_ele = null,
   x_img_ele = 0,
   y_img_ele = 0;
 
+/* 
 function zoom(zoomincrement) {
   img_ele = document.getElementById('drag-img');
   var pre_width = img_ele.getBoundingClientRect().width, pre_height = img_ele.getBoundingClientRect().height;
@@ -18,6 +19,7 @@ document.getElementById('zoomout').addEventListener('click', function() {
 document.getElementById('zoomin').addEventListener('click', function() {
   zoom(1.5);
 });
+ */
 
 function start_drag() {
   img_ele = this;
