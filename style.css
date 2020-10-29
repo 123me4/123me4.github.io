@@ -1,22 +1,4 @@
 body { 
-	color: #929292; 
-	background-color: black; 
+	color: black; 
+	background-color: #929292; 
 }
-div.picture img { 
-	width:10%;
-	height:auto; }
-h2 { color: blue; }
-.nerd { color: blue; }
-.FIRST { color: white; }
-.Vex { color: #ff2600; }
-.DI {color: #8331e2; }
-.Solidworks { color: #bb0000; }
-.Autodesk { color: #00e0b0; }
-.Tinkercad { color: #f08c02; }
-.epee { color: #b0b0e5; }
-.LoZ { color: #e1c800; }
-.Portal { color: #00e3e3; }
-.Pokemon { color: #28a328; }
-.LoL { color: #c9943a; }
-.FE { color: #941100; }
-.HGttG { color: #00ff00; }
