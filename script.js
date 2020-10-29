@@ -26,10 +26,13 @@ function start_drag() {
   x_img_ele = window.event.clientX - document.getElementById('drag-img').offsetLeft;
   y_img_ele = window.event.clientY - document.getElementById('drag-img').offsetTop;
 
+  console.log("start drag");
 }
 
 function stop_drag() {
   img_ele = null;
+  
+  console.log("stop drag");
 }
 
 function while_drag() {
@@ -47,9 +50,14 @@ function while_drag() {
 var di = document.getElementById('drag-img');
 if(di) {
 	di.addEventListener('mousedown', start_drag);
+	
+	console.log("image event added");
 }
+
 var con = document.getElementById('container')
 if(con) {
 	con.addEventListener('mousemove', while_drag);
 	con.addEventListener('mouseup', stop_drag);
+	
+	console.log("container events added");
 }
