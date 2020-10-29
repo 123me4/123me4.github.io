@@ -44,6 +44,12 @@ function while_drag() {
   }
 }
 
-document.getElementById('drag-img').addEventListener('mousedown', start_drag);
-document.getElementById('container').addEventListener('mousemove', while_drag);
-document.getElementById('container').addEventListener('mouseup', stop_drag);
+var di = document.getElementById('drag-img');
+if(di) {
+	di.addEventListener('mousedown', start_drag);
+}
+var con = document.getElementById('container')
+if(con) {
+	con.addEventListener('mousemove', while_drag);
+	con.addEventListener('mouseup', stop_drag);
+}
